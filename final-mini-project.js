@@ -1,3 +1,21 @@
+let const userInput = prompt("Enter match result, include both team names and their scores  (e.g. Arsenal 3 - 0 ManUnited ) :");
+
+
+
+console.log (userInput);
+
+function displayResults() {
+    if (matchResults.length === 0) {
+        console.log("No match results to display")
+    };
+    // if (Number){(matchResults != 0);
+    // }; else {
+    //     console.log(matchResults != 0);
+    // }
+}
+
+displayResults();
+
 
 const PLTeams = ["Arsenal", "Aston Villa", "Bournemouth", "Brentford", "Brighton & Hove Albion", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Fulham", "Liverpool", "Luton Town", "Manchester City", "Manchester United", "Newcastle United", "Nottingham Forest", "Sheffield United", "Tottenham Hotspur", "West Ham United", "Wolverhampton Wanderers"];
 let matchResults = [];
