@@ -21,16 +21,11 @@ function quickCheckUserInput(strMatchResult){
 
   if (strMatchResult){
     let arrTeamAndScore = strMatchResult.split('-');
-    e(`[INFO] Inside quickCheckUserInput | Array of Team and Score: ${arrTeamAndScore}`);
-    boolValidInput = (arrTeamAndScore.length == 2);
+    e(`[INFO] Inside quickCheckUserInput | Array of Team and Score: ${arrTeamAndScore} | Lenght of the Array: ${arrTeamAndScore.length}`);
+    boolValidInput = (arrTeamAndScore.length === 2);
   }
 
   return boolValidInput;
-}
-
-function extractTeamNamesAndScores(strMatchResult){
-    //TODO Function
-    //Extract the team name and score into an object and also keep the result.
 }
 
 //========Main Program Starts Here==========//
@@ -47,9 +42,6 @@ e(strResultInput);
 
 if (quickCheckUserInput(strResultInput)) {
   e('User Input appears to be valid.......');
-  //Extract the team scores and then validate team names
-  let x = extractTeamNamesAndScores(strResultInput);
-
 } else {
   e(`[ERROR] User Input [${strResultInput}] is NOT a valid match result.`);
 }
