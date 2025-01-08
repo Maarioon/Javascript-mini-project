@@ -88,7 +88,7 @@ function main() {
         const userInput = prompt(`("Enter match result (format: team1 score - score team2, e.g. ${strSampleResult}) or 'exit' to quit: ")`);
 
         if (userInput.toLowerCase() === "exit") {
-            console.log("Exiting program.");
+            e("Exiting program.");
             break;
         }
     }
