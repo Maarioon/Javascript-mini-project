@@ -81,3 +81,18 @@ function displayAllMatchResults(arrMatchResults) {
 }
 
 displayAllMatchResults(arrMatchResults);
+
+
+function main() {
+    while (true) {
+        const userInput = prompt(`("Enter match result (format: team1 score - score team2, e.g. ${strSampleResult}) or 'exit' to quit: ")`);
+
+        if (userInput.toLowerCase() === "exit") {
+            console.log("Exiting program.");
+            break;
+        }
+    }
+}
+
+
+main();
