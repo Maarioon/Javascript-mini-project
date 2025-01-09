@@ -109,8 +109,8 @@ let scores = [
 
 
 
-    // Fulham 1 - 2 Arsenal
-    // Brentford 0 - 3 Manchester City
-    // Everton 1 - 1 Tottenham Hotspur
-    // Liverpool 2 - 0 Luton Town
-    // Nottingham Forest 1 - 1 Newcastle United
+// Fulham 1 - 2 Arsenal
+// Brentford 0 - 3 Manchester City
+// Everton 1 - 1 Tottenham Hotspur
+// Liverpool 2 - 0 Luton Town
+// Nottingham Forest 1 - 1 Newcastle United
