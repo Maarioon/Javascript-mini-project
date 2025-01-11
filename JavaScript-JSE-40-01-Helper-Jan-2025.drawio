@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="e5xL3mZSCdcu3TutBcEE">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="md_w1pux99HyGkawT8tR-18" value="Framer" style="locked=1;" parent="0" />
+        <mxCell id="md_w1pux99HyGkawT8tR-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="md_w1pux99HyGkawT8tR-18">
+          <mxGeometry x="30" y="390" width="790" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="1" style="locked=1;" parent="0" />
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ul6H5wH7IRtJ_2gxmPZY-1" target="ul6H5wH7IRtJ_2gxmPZY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-1" value="&lt;b&gt;Start Program&lt;/b&gt;&lt;div&gt;&amp;lt;Set Timeout Function to invoke UAC&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;initial timeout&lt;b&gt; 0 &lt;/b&gt;&amp;lt;= x &amp;lt;= 1000&amp;gt;&lt;/div&gt;&lt;div&gt;zero initial timeout is best&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="810" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ul6H5wH7IRtJ_2gxmPZY-2" target="ul6H5wH7IRtJ_2gxmPZY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-2" value="&lt;b&gt;UAC Function&lt;/b&gt; (accept a callback function as parameter)&lt;div&gt;&amp;lt;User Action Choice&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;Take User Choice&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;Invoke Runner Function (callback)&amp;gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="420" width="306" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ul6H5wH7IRtJ_2gxmPZY-14" target="ul6H5wH7IRtJ_2gxmPZY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="880" />
+              <mxPoint x="770" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ul6H5wH7IRtJ_2gxmPZY-3" target="ul6H5wH7IRtJ_2gxmPZY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-3" value="&lt;b&gt;Runner Function&lt;/b&gt; (user choice)&lt;div&gt;&amp;lt;Process User Choice&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;Call the function to Set Timeout to re-Invoke UAC Function (passing itself as callback)&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;Timeout Should be Configurable per User Action Executed&amp;gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="585" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="ul6H5wH7IRtJ_2gxmPZY-4" target="ul6H5wH7IRtJ_2gxmPZY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-4" value="Other Program Functions" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-8" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="580" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-9" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="744" y="670" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-12" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="350" y="855" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-13" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="580" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-14" value="&lt;b&gt;Set Timeout Function&lt;/b&gt; (accept a callback function as parameter, a timeout value as parameter)&lt;div&gt;&amp;lt;Set Timeout to re-Invoke UAC Function (passing Runner Function as callback)&amp;gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="810" width="316" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-17" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="775" y="670" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ul6H5wH7IRtJ_2gxmPZY-19" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="350" y="645" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
